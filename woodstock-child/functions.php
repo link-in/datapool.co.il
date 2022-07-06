@@ -442,6 +442,7 @@ function file_upload_callback() {
 }
 
 function get_html($csv_file) {
+    global $wpdb;
     $html = '<h2>הקובץ עודכן בהצלחה :-)</h2>';
     $html.='<table border="1">';
     $file = fopen($csv_file,'r');
@@ -466,7 +467,8 @@ function get_html($csv_file) {
             $style = ($k == 3) ? 'style="background: blue;"' : '';
             $html.='<td '.$style.'>'.$v.'</td>';
             if($k == 0){
-                $productId = wc_get_product_id_by_sku($v);
+                $query = "SELECT `post_id` FROM `dp_postmeta` WHERE `meta_key` = 'datapool_id' AND `meta_value` = '".$v."'";
+                $productId = $wpdb->get_results($query)[0]->post_id;
             }
             if($k == 3 || $k == 4){
                 $newPrice = $v;
@@ -500,3 +502,5 @@ function get_html($csv_file) {
 
 }
 
+//get_html('https://www.datapool.co.il/wp-content/uploads/2022/07/מחירון-ראשי-דיו-יוני2022.xls-1.csv');
+//exit;
