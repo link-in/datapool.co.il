@@ -1,0 +1,27 @@
+/**
+*-----------------------------------------------------------------------------------------------
+* Other styles.
+*-----------------------------------------------------------------------------------------------
+*/
+
+// Tabs
+
+.vc_tta.vc_general .vc_tta-panel-body {
+	z-index: 999;
+}
+
+
+.vc_tta-color-white.vc_tta-style-flat .vc_tta-tab > a {
+	font-size: 20px !important;
+    color: #000 !important;
+}
+
+.vc_tta-tabs-container {
+	.vc_tta-title-text {
+		font-weight: 600 !important;
+	}
+}
+
+.vc_separator h4 {
+    font-size: 160% !important;
+}

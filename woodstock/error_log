@@ -1,0 +1,40 @@
+[27-Nov-2021 22:34:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/datapool/public_html/wp-content/themes/woodstock/404.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/datapool/public_html/wp-content/themes/woodstock/404.php on line 1
+[27-Nov-2021 22:34:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function woodstock_global_var() in /home/datapool/public_html/wp-content/themes/woodstock/header.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/datapool/public_html/wp-content/themes/woodstock/header.php on line 8
+[27-Nov-2021 22:34:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function woodstock_global_var() in /home/datapool/public_html/wp-content/themes/woodstock/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/datapool/public_html/wp-content/themes/woodstock/index.php on line 2
+[27-Nov-2021 22:34:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_option() in /home/datapool/public_html/wp-content/themes/woodstock/archive.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/datapool/public_html/wp-content/themes/woodstock/archive.php on line 3
+[14-Dec-2021 10:51:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_option() in /home/datapool/public_html/wp-content/themes/woodstock/archive.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/datapool/public_html/wp-content/themes/woodstock/archive.php on line 3
+[14-Dec-2021 10:51:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/datapool/public_html/wp-content/themes/woodstock/404.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/datapool/public_html/wp-content/themes/woodstock/404.php on line 1
+[14-Dec-2021 10:51:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function woodstock_global_var() in /home/datapool/public_html/wp-content/themes/woodstock/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/datapool/public_html/wp-content/themes/woodstock/index.php on line 2
+[14-Dec-2021 10:51:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function woodstock_global_var() in /home/datapool/public_html/wp-content/themes/woodstock/header.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/datapool/public_html/wp-content/themes/woodstock/header.php on line 8
+[30-Dec-2021 18:42:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function woodstock_global_var() in /home/datapool/public_html/wp-content/themes/woodstock/header.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/datapool/public_html/wp-content/themes/woodstock/header.php on line 8
+[30-Dec-2021 18:42:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function woodstock_global_var() in /home/datapool/public_html/wp-content/themes/woodstock/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/datapool/public_html/wp-content/themes/woodstock/index.php on line 2

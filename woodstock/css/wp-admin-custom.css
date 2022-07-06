@@ -1,0 +1,84 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+	Theme Options
+		Menus
+		Redux
+		Revolution Slider 
+		Visual Composer
+		
+[/Table of contents]
+-------------------------------------------------------------------*/
+
+
+/**********************************************************************************/
+/* Theme Options ******************************************************************/
+/**********************************************************************************/
+
+
+/* Redux */
+
+.admin-color-fresh #redux-header {
+	background: #333;
+	border-color: #0073aa;
+	border-width: 6px
+}
+
+.admin-color-fresh .redux-sidebar .redux-group-menu li.active.hasSubSections ul.subsection li a {
+    background: #333 none repeat scroll 0% 0%;
+}
+         
+
+.redux-notice-field {
+	background-color: #333;
+	border-width:0;
+	box-shadow:none;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 15px 20px;
+}  
+
+.redux-notice-field.redux-warning {
+	background-color: #fff;
+	color: #333;
+	font-size: 20px;
+	border-left: 0;
+	font-weight: bold;
+	margin: 20px 0;
+	padding: 15px 20px 15px 0;
+	border-bottom: 3px solid #333;
+} 
+
+#info-info_docs {
+	background-color: #fff;
+	color: #333;
+	font-size: 20px;
+	font-weight: inherit;
+	border-bottom: none;
+}
+#info-info_docs p {
+	font-size: 16px;
+	line-height: 22px;
+}
+
+.redux-main span.description {
+	font-style: italic;
+}
+
+.redux-container-image_select ul.redux-image-select li {
+    padding: 2px 5px 2px 0px;
+}
+
+
+/* Revolution Slider */
+
+.rs-update-notice-wrap {
+	display:none !important;
+}
+
+/* Visual Composer */
+
+.vc_editor #wpcontent {
+	padding-left: 0px !important;
+}

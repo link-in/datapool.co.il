@@ -1,0 +1,31 @@
+/**
+*-----------------------------------------------------------------------------------------------
+* Divider styles.
+*-----------------------------------------------------------------------------------------------
+*/
+
+hr {
+    display: block;
+    height: 1px;
+    margin: $general-margin 0;
+    border: none;
+    background-color: rgba(0,0,0,0.05);
+    .mc-dark & {
+    	background-color: rgba(255,255,255,0.05);
+    }
+}
+
+.content_hr {
+	margin: 0 0 40px;
+	padding: 0 15px;
+}
+
+.content_hr:nth-last-child(2)
+{
+	margin-bottom: 0;
+}
+
+.content_hr:nth-last-child(1)
+{
+	display: none;
+}

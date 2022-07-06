@@ -1,0 +1,11 @@
+<wpml-config>
+	<admin-texts>
+		<key name="tdl_options">
+			<key name="tdl_header_customer_bar_title"/>
+			<key name="tdl_header_customer_bar_subtitle"/>
+			<key name="tdl_newbadge_text"/>
+			<key name="tdl_out_of_stock_text"/>
+			<key name="tdl_footer_text"/>
+		</key>
+	</admin-texts>
+</wpml-config>

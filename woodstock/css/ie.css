@@ -1,0 +1,16 @@
+.nav-holder .tdl-navbar-nav > li > ul,
+.nav-holder .tdl-navbar-nav > li > div,
+.nav-holder .tdl-navbar-nav .tdl-dropdown-menu ul,
+.top-menu li > div,
+.top-menu li > .sub-menu {
+  display: none;
+  visibility: visible;
+}
+
+.nav-holder .tdl-navbar-nav li:hover > .sub-menu,
+.nav-holder .tdl-navbar-nav li:hover > div,
+.top-menu li:hover > .sub-menu,
+.top-menu li:hover > div,
+.top-menu .cart:hover .cart-contents {
+  display: block;
+}
