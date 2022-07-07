@@ -2,13 +2,13 @@
 /*
 Template Name: Refund Page
 */
-?>
 
+?>
 <?php get_header('refund'); ?>
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <script src="https://jqueryui.com/resources/demos/datepicker/i18n/datepicker-he.js"></script>
-    <div class="site_header woo-pages with_featured_img" style="background-image: url('https://www.datapool.co.il/wp-content/uploads/2020/03/placehold.it-1920x600-1.jpg'); background-position: center -12px; opacity: 1;">
+    <div class="site_header woo-pages with_featured_img" style="background-image: url(<?=get_site_url()?>'/wp-content/uploads/2021/08/banner4-scaled.jpg'); background-position: center -12px; opacity: 1;">
 
         <div class="site_header_overlay" style="opacity: 1;"></div>
 
